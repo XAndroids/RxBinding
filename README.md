@@ -1,18 +1,17 @@
 RxBinding
 =========
 
-RxJava binding APIs for Android UI widgets from the platform and support libraries.
+用于Android系统和Support库中UI控件的RxJava绑定API.
 
-
-Download
+下载
 --------
 
 Platform bindings:
+系统绑定：
 ```groovy
 implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
 ```
-
-AndroidX library bindings:
+AndroidX 库绑定：
 ```groovy
 implementation 'com.jakewharton.rxbinding3:rxbinding-core:3.1.0'
 implementation 'com.jakewharton.rxbinding3:rxbinding-appcompat:3.1.0'
@@ -24,14 +23,12 @@ implementation 'com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:3.1.0'
 implementation 'com.jakewharton.rxbinding3:rxbinding-viewpager:3.1.0'
 implementation 'com.jakewharton.rxbinding3:rxbinding-viewpager2:3.1.0'
 ```
-
-Google 'material' library bindings:
+Google 'material'库绑定：
 ```groovy
 implementation 'com.jakewharton.rxbinding3:rxbinding-material:3.1.0'
 ```
 
-Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
-
+[Sonatype's `snapshots` repository][snap]提供了开发版本的镜像。
 
 License
 -------
